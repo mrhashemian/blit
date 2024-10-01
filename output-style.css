@@ -34,14 +34,21 @@ th, td {
     font-size: 16px;
     font-weight: bold;
     background-color: #d3d3d3;
-    /*border-bottom: none;*/
+    border-bottom: none;
     padding: 10px;
-    margin: 10px auto;
+}
+
+.details-table tr:first-of-type td {
+    padding-top: 18px;
+}
+
+.details-table tr:last-of-type td {
+    padding-bottom: 18px;
 }
 
 .details-table td {
     border: none;
-    padding: 7px 22px;
+    padding: 8px 22px;
     text-align: right;
 }
 
