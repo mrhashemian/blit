@@ -80,6 +80,6 @@ td.highlight {
 
 @media only screen and (max-width: 1100px) {
     .ticket {
-        width: 1000px;
+        width: 95%;
     }
 }
