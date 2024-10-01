@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>T-ket</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <form action="./output.html">
+        <div class="row">
+            <h4>اطلاعات شخصی</h4>
+            <div class="input-group">
+                <input name="first-name" type="text" placeholder="نام"/>
+            </div>
+            <div class="input-group">
+                <input name="last-name" type="text" placeholder="نام خانوادگی"/>
+            </div>
+            <div class="input-group">
+                <input name="national-code" type="text" placeholder="کد ملی"/>
+            </div>
+
+            <h4>تاریخ تولد</h4>
+            <div class="input-group">
+                <div class="col-third">
+                    <input name="birth-day" type="text" placeholder="روز"/>
+                </div>
+                <div class="col-third">
+                    <input name="birth-month" type="text" placeholder="ماه"/>
+                </div>
+                <div class="col-third">
+                    <input name="birth-year" type="text" placeholder="سال"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <h4>مسیر</h4>
+                <div class="input-group">
+                    <input id="qom-tehran" type="radio" name="path" value="qom-tehran" checked="checked"/>
+                    <label for="qom-tehran">قم به تهران</label>
+                    <input id="tehran-qom" type="radio" name="path" value="tehran-qom"/>
+                    <label for="tehran-qom">تهران به قم</label>
+                </div>
+            </div>
+
+            <div class="col-half">
+                <h4>شماره قطار</h4>
+                <input name="train-number" type="text" placeholder="شماره قطار"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <h4>تاریخ حرکت</h4>
+                <div class="input-group">
+                    <input id="date-of-departure-today" type="radio" name="date-of-departure" value="today"
+                           checked="checked"/>
+                    <label for="date-of-departure-today">امروز</label>
+                    <input id="date-of-departure-tomorrow" type="radio" name="date-of-departure" value="tomorrow"/>
+                    <label for="date-of-departure-tomorrow">فردا</label>
+                </div>
+            </div>
+
+            <div class="col-half">
+                <h4>ساعت حرکت</h4>
+                <input name="departure-time" type="text" placeholder="ساعت حرکت"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-half">
+                <h4>صندلی</h4>
+                <div class="input-group">
+                    <div class="col-third">
+                        <input name="hall" type="text" placeholder="سالن" value="۳"/>
+                    </div>
+                    <div class="col-third">
+                        <input name="row" type="text" placeholder="ردیف" value="۱۲"/>
+                    </div>
+                    <div class="col-third">
+                        <input name="seat" type="text" placeholder="صندلی" value="۴۸"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-half">
+                <h4>شماره بلیت</h4>
+                <input name="ticket-number" type="text" placeholder="شماره بلیت" value="۵۴۲۷۵۲"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <input id="terms" type="checkbox" disabled="disabled" checked="checked"/>
+                <label for="terms">این بلیت تقلبی بوده و تمام مسئولیت آن با فرد استفاده کننده است!</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <input class="clickable" type="submit" value="ساخت بلیت">
+        </div>
+    </form>
+</div>
+</body>
+</html>

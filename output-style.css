@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'IRANSanse';
+    src: url('./fonts/Iranian Sans.ttf') format('truetype'); /* Legacy iOS */
+}
+
+body {
+    font-family: IRANSanse, Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+.ticket {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.details-table, .passenger-table {
+    border: 1px solid #000;
+}
+
+.details-table {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d3d3d3;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.details-table td {
+    border: none;
+    padding: 7px 22px;
+    text-align: right;
+}
+
+.tdbold {
+    font-weight: bold;
+    font-size: 22px !important;
+}
+
+th {
+    background-color: #d3d3d3;
+}
+
+td.highlight {
+    background-color: #d3d3d3;
+}
+
+.passenger-table th {
+    padding: 35px 20px;
+    font-size: 14px;
+
+}
+
+.passenger-table td {
+
+    font-size: 14px;
+}
+
+.whitespace {
+    padding-right: 50px !important;
+}
